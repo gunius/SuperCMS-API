@@ -36,7 +36,7 @@ namespace SuperCMS_API
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
+            //TEST
             app.UseMvc();
         }
     }
